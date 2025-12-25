@@ -6,27 +6,27 @@
 
 <img src="images/FigS1-High-intensity-PairPlot.png" width="800" alt="Fig S1">
 
-**Supplementary Figure 1:** Visual representation of the relationships between each continuous predictor and the outcome variable, high-intensity distance covered per minute (Zones 4 and 5). The lower half displays scatterplots, the upper half shows correlation coefficients, and the diagonal shows frequency distributions via histograms. WBGT: wet bulb globe temperature; Temp: dry air temperature; UR: relative humidity; Rad: radiation; TG: globe temperatue; TN: wet bulb temperatuer; UA: absolute humidity.
+**Supplementary Figure 1:** Visual representation of the relationships between each continuous predictor and the outcome variable, high-intensity distance covered per minute (Zones 4 and 5). The lower half displays scatterplots, the upper half shows correlation coefficients, and the diagonal shows frequency distributions via histograms. WBGT: wet bulb globe temperature; Temp: dry air temperature; UR: relative humidity; Rad: radiation; TG: globe temperature; TN: wet bulb temperature; UA: absolute humidity.
 
 **Fig S2: PairPlot between continuous predictors and moderate intensity distance covered per minute (Zone 3)**
 
 <img src="images/FigS2-Moderate-intensity-PairPlot.png" width="800" alt="Fig S2">
 
-**Supplementary Figure 2:** Visual representation of the relationships between each continuous predictor and the outcome variable, moderate-intensity distance covered per minute (Zone 3). The lower half displays scatterplots, the upper half shows correlation coefficients, and the diagonal shows frequency distributions via histograms. WBGT: wet bulb globe temperature; Temp: dry air temperature; UR: relative humidity; Rad: radiation; TG: globe temperatue; TN: wet bulb temperatuer; UA: absolute humidity.
+**Supplementary Figure 2:** Visual representation of the relationships between each continuous predictor and the outcome variable, moderate-intensity distance covered per minute (Zone 3). The lower half displays scatterplots, the upper half shows correlation coefficients, and the diagonal shows frequency distributions via histograms. WBGT: wet bulb globe temperature; Temp: dry air temperature; UR: relative humidity; Rad: radiation; TG: globe temperature; TN: wet bulb temperature; UA: absolute humidity.
 
 
 **Fig S3: PairPlot between continuous predictors and low intensity distance covered per minute (Zones 1 and 2).**
 
 <img src="images/FigS3-Low-intensity-PairPlot.png" width="800" alt="Fig S3">
 
-**Supplementary Figure 3:** Visual representation of the relationships between each continuous predictor and the outcome variable, low-intensity distance covered per minute (Zones 1 and 2). The lower half displays scatterplots, the upper half shows correlation coefficients, and the diagonal shows frequency distributions via histograms. WBGT: wet bulb globe temperature; Temp: dry air temperature; UR: relative humidity; Rad: radiation; TG: globe temperatue; TN: wet bulb temperatuer; UA: absolute humidity.
+**Supplementary Figure 3:** Visual representation of the relationships between each continuous predictor and the outcome variable, low-intensity distance covered per minute (Zones 1 and 2). The lower half displays scatterplots, the upper half shows correlation coefficients, and the diagonal shows frequency distributions via histograms. WBGT: wet bulb globe temperature; Temp: dry air temperature; UR: relative humidity; Rad: radiation; TG: globe temperature; TN: wet bulb temperature; UA: absolute humidity.
 
 
 **Fig S4: PairPlot between continuous predictors and total distance covered per minute**
 
 <img src="images/FigS4-Total-distance-PairPlot.png" width="800" alt="Fig S4">
 
-**Supplementary Figure 4:** Visual representation of the relationships between each continuous predictor and the outcome variable, total distance covered per minute. The lower half displays scatterplots, the upper half shows correlation coefficients, and the diagonal shows frequency distributions via histograms. WBGT: wet bulb globe temperature; Temp: dry air temperature; UR: relative humidity; Rad: radiation; TG: globe temperatue; TN: wet bulb temperatuer; UA: absolute humidity.
+**Supplementary Figure 4:** Visual representation of the relationships between each continuous predictor and the outcome variable, total distance covered per minute. The lower half displays scatterplots, the upper half shows correlation coefficients, and the diagonal shows frequency distributions via histograms. WBGT: wet bulb globe temperature; Temp: dry air temperature; UR: relative humidity; Rad: radiation; TG: globe temperature; TN: wet bulb temperature; UA: absolute humidity.
 
 
 ## MODEL 1 - Assumption checks
@@ -502,7 +502,7 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 | Player_positionMF | 0.600 | 0.238 | 434 | 2.52 | 0.012 |
 | Player_positionFW | 1.506 | 0.268 | 446 | 5.62 | <0.001 |
 | Player_age_c | -0.087 | 0.023 | 461 | -3.79 | <0.001 |
-| Origin_climateTemperate | 0.041 | 0.234 | 447 | 0.18 | 0.860 |
+| Origin_climateNon-tropical | 0.041 | 0.234 | 447 | 0.18 | 0.860 |
 | WBGT_c | -0.182 | 0.020 | 953 | -8.90 | <0.001 |
 | Time_of_dayEvening:WBGT_c | 0.007 | 0.029 | 830 | 0.24 | 0.812 |
 **Supplementary Table 25:** Fixed effects estimates, standard error, degrees of freedom, t-value, and P-value for each predictor.
@@ -540,7 +540,7 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 | Player_positionMF | 4.484 | 0.331 | 423 | 13.55 | <0.001 |
 | Player_positionFW | 2.150 | 0.372 | 433 | 5.77 | <0.001 |
 | Player_age_c | -0.063 | 0.032 | 446 | -1.96 | 0.050 |
-| Origin_climateTemperate | 0.753 | 0.325 | 435 | 2.32 | 0.021 |
+| Origin_climateNon-tropical | 0.753 | 0.325 | 435 | 2.32 | 0.021 |
 | WBGT_c | -0.336 | 0.026 | 899 | -12.94 | <0.001 |
 | Time_of_dayEvening:WBGT_c | 0.026 | 0.037 | 788 | 0.70 | 0.486 |
 **Supplementary Table 28:** Fixed effects estimates, standard error, degrees of freedom, t-value, and P-value for each predictor.
@@ -577,7 +577,7 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 | Player_positionMF | 4.603 | 0.603 | 420 | 7.63 | <0.001 |
 | Player_positionFW | 0.927 | 0.679 | 431 | 1.37 | 0.173 |
 | Player_age_c | -0.133 | 0.058 | 446 | -2.27 | 0.023 |
-| Origin_climateTemperate | 2.232 | 0.593 | 433 | 3.76 | <0.001 |
+| Origin_climateNon-tropical | 2.232 | 0.593 | 433 | 3.76 | <0.001 |
 | WBGT_c | -0.631 | 0.051 | 935 | -12.44 | <0.001 |
 | Time_of_dayEvening:WBGT_c | 0.398 | 0.072 | 810 | 5.52 | <0.001 |
 **Supplementary Table 31:** Fixed effects estimates, standard error, degrees of freedom, t-value, and P-value for each predictor.
@@ -614,7 +614,7 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 | Player_positionMF | 9.667 | 0.863 | 429 | 11.20 | <0.001 |
 | Player_positionFW | 4.586 | 0.970 | 439 | 4.73 | <0.001 |
 | Player_age_c | -0.279 | 0.083 | 452 | -3.35 | <0.001 |
-| Origin_climateTemperate | 3.008 | 0.847 | 441 | 3.55 | <0.001 |
+| Origin_climateNon-tropical | 3.008 | 0.847 | 441 | 3.55 | <0.001 |
 | WBGT_c | -1.153 | 0.067 | 897 | -17.20 | <0.001 |
 | Time_of_dayEvening:WBGT_c | 0.421 | 0.094 | 789 | 4.46 | <0.001 |
 **Supplementary Table 34:** Fixed effects estimates, standard error, degrees of freedom, t-value, and P-value for each predictor.
@@ -652,7 +652,7 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 | Player_positionMF | 0.597 | 0.238 | 433 | 2.51 | 0.012 |
 | Player_positionFW | 1.508 | 0.268 | 445 | 5.63 | <0.001 |
 | Player_age_c | -0.086 | 0.023 | 461 | -3.73 | <0.001 |
-| Origin_climateTemperate | -0.008 | 0.234 | 448 | -0.03 | 0.973 |
+| Origin_climateNon-tropical | -0.008 | 0.234 | 448 | -0.03 | 0.973 |
 | Temp_c | -0.182 | 0.021 | 1052 | -8.80 | <0.001 |
 | UR_c | -0.039 | 0.008 | 909 | -5.22 | <0.001 |
 | RAD_c | 0.000 | 0.000 | 833 | -0.68 | 0.499 |
@@ -692,7 +692,7 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 | Player_positionMF | 4.487 | 0.332 | 421 | 13.53 | <0.001 |
 | Player_positionFW | 2.153 | 0.373 | 431 | 5.77 | <0.001 |
 | Player_age_c | -0.064 | 0.032 | 445 | -2.00 | 0.046 |
-| Origin_climateTemperate | 0.754 | 0.326 | 435 | 2.31 | 0.021 |
+| Origin_climateNon-tropical | 0.754 | 0.326 | 435 | 2.31 | 0.021 |
 | Temp_c | -0.296 | 0.027 | 1022 | -11.10 | <0.001 |
 | UR_c | -0.016 | 0.010 | 864 | -1.71 | 0.087 |
 | RAD_c | 0.001 | 0.001 | 789 | 1.90 | 0.057 |
@@ -732,7 +732,7 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 | Player_positionMF | 4.629 | 0.592 | 424 | 7.81 | <0.001 |
 | Player_positionFW | 0.934 | 0.667 | 435 | 1.40 | 0.162 |
 | Player_age_c | -0.138 | 0.057 | 451 | -2.41 | 0.016 |
-| Origin_climateTemperate | 2.358 | 0.583 | 439 | 4.04 | <0.001 |
+| Origin_climateNon-tropical | 2.358 | 0.583 | 439 | 4.04 | <0.001 |
 | Temp_c | -0.505 | 0.051 | 1047 | -9.96 | <0.001 |
 | UR_c | 0.029 | 0.018 | 897 | 1.59 | 0.112 |
 | RAD_c | 0.003 | 0.001 | 819 | 2.87 | 0.004 |
@@ -772,7 +772,7 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 | Player_positionMF | 9.693 | 0.859 | 430 | 11.29 | <0.001 |
 | Player_positionFW | 4.600 | 0.966 | 440 | 4.76 | <0.001 |
 | Player_age_c | -0.285 | 0.083 | 453 | -3.44 | <0.001 |
-| Origin_climateTemperate | 3.080 | 0.844 | 444 | 3.65 | <0.001 |
+| Origin_climateNon-tropical | 3.080 | 0.844 | 444 | 3.65 | <0.001 |
 | Temp_c | -0.984 | 0.068 | 1020 | -14.38 | <0.001 |
 | UR_c | -0.029 | 0.025 | 866 | -1.19 | 0.235 |
 | RAD_c | 0.004 | 0.001 | 793 | 2.59 | 0.010 |
@@ -813,7 +813,7 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 | Player_positionMF | 0.595 | 0.237 | 434 | 2.52 | 0.012 |
 | Player_positionFW | 1.508 | 0.266 | 446 | 5.66 | <0.001 |
 | Player_age_c | -0.086 | 0.023 | 462 | -3.74 | <0.001 |
-| Origin_climateTemperate | 0.007 | 0.233 | 448 | 0.03 | 0.976 |
+| Origin_climateNon-tropical | 0.007 | 0.233 | 448 | 0.03 | 0.976 |
 | WBGT_c | -0.209 | 0.022 | 1052 | -9.31 | <0.001 |
 | UR_c | -0.017 | 0.005 | 892 | -3.26 | 0.001 |
 | Time_of_dayEvening:UR_c | 0.018 | 0.008 | 834 | 2.20 | 0.028 |
@@ -852,7 +852,7 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 | Player_positionMF | 4.486 | 0.331 | 422 | 13.54 | <0.001 |
 | Player_positionFW | 2.149 | 0.373 | 432 | 5.77 | <0.001 |
 | Player_age_c | -0.063 | 0.032 | 446 | -1.97 | 0.049 |
-| Origin_climateTemperate | 0.765 | 0.325 | 435 | 2.35 | 0.019 |
+| Origin_climateNon-tropical | 0.765 | 0.325 | 435 | 2.35 | 0.019 |
 | WBGT_c | -0.326 | 0.029 | 1020 | -11.24 | <0.001 |
 | UR_c | 0.006 | 0.007 | 848 | 0.86 | 0.392 |
 | Time_of_dayEvening:UR_c | -0.004 | 0.010 | 788 | -0.44 | 0.658 |
@@ -892,7 +892,7 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 | Player_positionMF | 4.633 | 0.596 | 424 | 7.77 | <0.001 |
 | Player_positionFW | 0.916 | 0.671 | 435 | 1.36 | 0.173 |
 | Player_age_c | -0.136 | 0.058 | 450 | -2.36 | 0.019 |
-| Origin_climateTemperate | 2.359 | 0.587 | 438 | 4.02 | <0.001 |
+| Origin_climateNon-tropical | 2.359 | 0.587 | 438 | 4.02 | <0.001 |
 | WBGT_c | -0.526 | 0.056 | 1045 | -9.46 | <0.001 |
 | UR_c | 0.058 | 0.013 | 878 | 4.39 | <0.001 |
 | Time_of_dayEvening:UR_c | -0.033 | 0.020 | 818 | -1.68 | 0.093 |
@@ -931,7 +931,7 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 | Player_positionMF | 9.696 | 0.861 | 430 | 11.27 | <0.001 |
 | Player_positionFW | 4.576 | 0.968 | 440 | 4.73 | <0.001 |
 | Player_age_c | -0.281 | 0.083 | 453 | -3.38 | <0.001 |
-| Origin_climateTemperate | 3.115 | 0.845 | 443 | 3.68 | <0.001 |
+| Origin_climateNon-tropical | 3.115 | 0.845 | 443 | 3.68 | <0.001 |
 | WBGT_c | -1.063 | 0.075 | 1018 | -14.24 | <0.001 |
 | UR_c | 0.045 | 0.017 | 849 | 2.59 | 0.010 |
 | Time_of_dayEvening:UR_c | -0.019 | 0.026 | 791 | -0.74 | 0.462 |
