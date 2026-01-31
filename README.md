@@ -788,13 +788,13 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 
 <img src="images/FigS29-Sprint-model1-residuals-check.png" width="800" alt="Fig S29">
 
-**Supplementary Figure 29:** Graphical analysis of the model residuals for assumptions assessment. The histogram and Q-Q plot were used to visually assess the normality of the residuals. The scatterplot of residuals versus fitted values was used to assess the assumption of homoscedasticity.
+**Supplementary Figure 21:** Graphical analysis of the model residuals for assumptions assessment. The histogram and Q-Q plot were used to visually assess the normality of the residuals. The scatterplot of residuals versus fitted values was used to assess the assumption of homoscedasticity.
 
 **Fig S22: Histogram and Q-Q Plot of random effects**
 
 "<img src="images/FigS30-Sprint-model1-random-effects-check.png" width="800" alt="Fig S30">"
 
-**Supplementary Figure 30**: Graphical assessment of the normality of the random effects. The histograms and Q-Q plots for each random effect are used to visually confirm the assumption that they are normally distributed.
+**Supplementary Figure 22**: Graphical assessment of the normality of the random effects. The histograms and Q-Q plots for each random effect are used to visually confirm the assumption that they are normally distributed.
 
 **Table S49: Kolmogorov-Smirnov test for residuals and random effects normality check**
 |Data| D | p-value|
@@ -809,13 +809,13 @@ VD ~ Stage + Time_of_day + Ranking_difference + Player_position + Player_age_c +
 
 <img src="images/FigS31-Sprint-model2-residuals-check.png" width="800" alt="Fig S31">
 
-**Supplementary Figure 31:** Graphical analysis of the model residuals for assumptions assessment. The histogram and Q-Q plot were used to visually assess the normality of the residuals. The scatterplot of residuals versus fitted values was used to assess the assumption of homoscedasticity.
+**Supplementary Figure 23:** Graphical analysis of the model residuals for assumptions assessment. The histogram and Q-Q plot were used to visually assess the normality of the residuals. The scatterplot of residuals versus fitted values was used to assess the assumption of homoscedasticity.
 
 **Fig S24: Histogram and Q-Q Plot of random effects**
 
 "<img src="images/FigS32-Sprint-model2-random-effects-check.png" width="800" alt="Fig S32">"
 
-**Supplementary Figure 32**: Graphical assessment of the normality of the random effects. The histograms and Q-Q plots for each random effect are used to visually confirm the assumption that they are normally distributed.
+**Supplementary Figure 24**: Graphical assessment of the normality of the random effects. The histograms and Q-Q plots for each random effect are used to visually confirm the assumption that they are normally distributed.
 
 **Table S50: Kolmogorov-Smirnov test for residuals and random effects normality check**
 |Data| D | p-value|
